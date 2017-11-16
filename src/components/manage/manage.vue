@@ -6,7 +6,7 @@
 					<h1>学生信息管理系统/<span>Student information management system</span></h1>
 				</div>
 				<div class="admin">
-					admin:
+					<i class="iconfont">&#xe605;</i>
 					{{admin.name}}
 					<!-- {{admin.password}} -->
 				</div>
@@ -60,6 +60,21 @@
 	}
 </script>
 <style type="text/css">
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../assets/fonts/iconfont.eot');
+  src: url('../../assets/fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/iconfont.woff') format('woff'),
+  url('../../assets/fonts/iconfont.ttf') format('truetype'),
+  url('../../assets/fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
 	*{
 		margin: 0;
 		padding: 0;
